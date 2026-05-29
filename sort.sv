@@ -1,4 +1,6 @@
 // Code your design here
+//sorting index digit and also arr sorting ascending oder
+
 module test;
   int arr[];
   int temp;

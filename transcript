@@ -181,3 +181,107 @@ do run.do
 # arr[3] = 156
 # arr[4] = 345
 # arr[5] = 349
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 15:12:39 on May 29,2026
+# vlog -reportprogress 300 sort.sv "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:12:39 on May 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:12:40 on May 29,2026, Elapsed time: 0:05:38
+# Errors: 0, Warnings: 1
+# vsim test 
+# Start time: 15:12:40 on May 29,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.test(fast)
+# arr[0] = 321
+# arr[1] = 321
+# arr[2] = 543
+# arr[3] = 651
+# arr[4] = 931
+# arr[5] = 943
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 15:12:57 on May 29,2026
+# vlog -reportprogress 300 sort.sv "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:12:57 on May 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:12:59 on May 29,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim test 
+# Start time: 15:12:59 on May 29,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.test(fast)
+# arr[0] = 321
+# arr[1] = 321
+# arr[2] = 543
+# arr[3] = 651
+# arr[4] = 931
+# arr[5] = 943
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 15:13:28 on May 29,2026
+# vlog -reportprogress 300 sort.sv "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:13:28 on May 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:13:30 on May 29,2026, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 15:13:30 on May 29,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.test(fast)
+# arr[0] = 943
+# arr[1] = 931
+# arr[2] = 651
+# arr[3] = 543
+# arr[4] = 321
+# arr[5] = 321
+do run.do
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 15:14:51 on May 29,2026
+# vlog -reportprogress 300 sort.sv "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:14:51 on May 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:14:53 on May 29,2026, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1
+# vsim test 
+# Start time: 15:14:53 on May 29,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.test(fast)
+# arr[0] = 123
+# arr[1] = 123
+# arr[2] = 139
+# arr[3] = 156
+# arr[4] = 345
+# arr[5] = 349
