@@ -1,12 +1,21 @@
 m255
 K4
 z2
-!s12c _opt1
-Z0 !s99 nomlopt
-Z1 !s12c _opt
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
 R0
 R1
 R0
+R1
+R0
+R1
+R1
+!s12c _opt1
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
 !s11f vlog 2024.1 2024.02, Feb  1 2024
 13
 !s112 1.1
@@ -14,50 +23,77 @@ R0
 !i10e 25
 !i10f 100
 cModel Technology
-Z2 dD:/GITHUB/interview
+Z3 dD:/GITHUB/interview
 T_opt
 !s110 1770112339
 Vci2DbnCQIZF=Uj>lO<CXG1
-Z3 04 2 4 work tb fast 0
+Z4 04 2 4 work tb fast 0
 =1-c84bd652329f-6981c553-234-978
-R0
-Z4 !s12f OEM100
-Z5 !s12b OEM100
-Z6 !s124 OEM100
-Z7 o-quiet -auto_acc_if_foreign -work work
-Z8 tCvgOpt 0
+R1
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM100
+Z8 o-quiet -auto_acc_if_foreign -work work
+Z9 tCvgOpt 0
 n@_opt
-Z9 OL;O;2024.1;79
-R2
+Z10 OL;O;2024.1;79
+R3
 T_opt1
 !s110 1778908750
 VoA@==c1aZ9b?PZVTzO>X11
-R3
-=1-c84bd652329f-6a07fe4d-e2-3e78
-R0
 R4
+=1-c84bd652329f-6a07fe4d-e2-3e78
+R1
 R5
 R6
 R7
 R8
-n@_opt1
 R9
+n@_opt1
+R10
+R3
+T_opt2
+!s110 1780047423
+VT:n8^W409k6<nbJkAJAf00
+Z11 04 4 4 work test fast 0
+=1-c84bd652329f-6a195e3e-3b5-22dc
+R1
+R5
+R6
+R7
+R8
+R9
+n@_opt2
+R10
+Tqrun_opt
+!s110 1780042580
+VCmKGFLCE^P32NNQgfQ3HI2
+R11
+R1
+R5
+R6
+R7
+o-work ./work
+R9
+nqrun_opt
+R10
+R3
 vtb
 2prime.sv
-DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
 !s110 1778908748
 !i10b 1
 !s100 Zi1CNTH42l9=]a^04:<0W1
 ID2`:@hbeVCf=jo[RAg6GX2
 S1
-dD:/project_p/GITHUB/interview
+Z13 dD:/project_p/GITHUB/interview
 w1770112331
 8prime.sv
 Fprime.sv
 !i122 2
 L0 1 29
-VDg1SIo80bB@j0V0VzS_@n1
-OL;L;2024.1;79
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+Z15 OL;L;2024.1;79
 r1
 !s85 0
 31
@@ -65,5 +101,30 @@ r1
 !s107 prime.sv|
 !s90 -reportprogress|300|prime.sv|+acc|
 !i113 0
-o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R8
+Z16 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vtest
+2sort.sv
+R12
+!s110 1780047420
+!i10b 1
+!s100 TTc9^1jRG[R7TN?N:;CM@1
+IUUzeGa^CbDUgAG<Fl_=Xb3
+S1
+R13
+w1780043012
+8sort.sv
+Fsort.sv
+!i122 7
+L0 2 51
+R14
+R15
+r1
+!s85 0
+31
+!s108 1780047420.000000
+!s107 sort.sv|
+!s90 -reportprogress|300|sort.sv|+acc|
+!i113 0
+R16
+R9

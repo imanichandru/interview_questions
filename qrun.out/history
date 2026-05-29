@@ -1,0 +1,3 @@
+- Entry: 1
+  Time: Fri May 29 13:46:19 2026
+  Command: C:\questasim64_2024.1\win64\qverilog.exe -reportprogress 300 -guimode sort.sv 

@@ -1,0 +1,14 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   0
+#   Totals: Errors:   0, Warnings:   0
+# vsim -lib ./work -c -do "run -all; quit -f" -statslog qrun.out/stats_log qrun_opt -appendlog -l qrun.log -csession=incr -csessionid=2 
+# Start time: 13:46:21 on May 29,2026
+# Loading sv_std.std
+# Loading work.test(fast)
+# run -all
+# 345
+#  quit -f
+# End time: 13:46:27 on May 29,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0

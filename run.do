@@ -1,3 +1,3 @@
-vlog prime.sv +acc
-vsim tb
+vlog sort.sv +acc
+vsim test
 run -all
