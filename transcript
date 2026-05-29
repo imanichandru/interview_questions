@@ -12,62 +12,19 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-ls
-# prime.sv  transcript              
 do run.do
 # QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 15:21:41 on Feb 03,2026
+# Start time: 10:49:07 on May 16,2026
 # vlog -reportprogress 300 prime.sv "+acc" 
 # -- Compiling module tb
 # 
 # Top level modules:
 # 	tb
-# End time: 15:21:42 on Feb 03,2026, Elapsed time: 0:00:01
+# End time: 10:49:08 on May 16,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim tb 
-# Start time: 15:21:42 on Feb 03,2026
+# Start time: 10:49:08 on May 16,2026
 # ** Note: (vsim-3812) Design is being optimized...
-# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
-# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.tb(fast)
-# count=1,num=00000000002d
-# count=2,num=00000000003d
-# count=3,num=00000000005d
-# count=4,num=00000000007d
-# count=5,num=00000000013d
-# count=6,num=00000000015d
-# count=7,num=00000000021d
-# count=8,num=00000000023d
-# count=9,num=00000000027d
-# count=10,num=00000000035d
-# count=11,num=00000000037d
-# count=12,num=00000000045d
-# count=13,num=00000000051d
-# count=14,num=00000000053d
-# count=15,num=00000000057d
-# count=16,num=00000000065d
-# count=17,num=00000000073d
-# count=18,num=00000000075d
-# count=19,num=00000000103d
-# count=20,num=00000000107d
-do run.do
-# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
-# Start time: 15:22:17 on Feb 03,2026
-# vlog -reportprogress 300 prime.sv "+acc" 
-# -- Compiling module tb
-# 
-# Top level modules:
-# 	tb
-# End time: 15:22:17 on Feb 03,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:22:18 on Feb 03,2026, Elapsed time: 0:00:36
-# Errors: 0, Warnings: 1
-# vsim tb 
-# Start time: 15:22:19 on Feb 03,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
 # Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
@@ -94,3 +51,9 @@ do run.do
 # count=18,num=61
 # count=19,num=67
 # count=20,num=71
+ls
+# interview_questions  shallow_copy_deep_copy  work  
+# prime.sv             transcript                    
+# run.do               two_read_one_write.sv         
+# End time: 10:49:32 on May 16,2026, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
