@@ -164,3 +164,20 @@ do run.do
 # 	test
 # End time: 15:07:00 on May 29,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+# End time: 15:07:02 on May 29,2026, Elapsed time: 1:14:45
+# Errors: 0, Warnings: 1
+# vsim test 
+# Start time: 15:07:02 on May 29,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.test(fast)
+# arr[0] = 123
+# arr[1] = 123
+# arr[2] = 139
+# arr[3] = 156
+# arr[4] = 345
+# arr[5] = 349
